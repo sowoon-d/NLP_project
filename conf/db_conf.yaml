@@ -1,0 +1,17 @@
+tibero : {
+    # 개발
+     # class name
+     class_name: 'com.tmax.tibero.jdbc.TbDriver',
+     # url
+     url: 'jdbc:tibero:thin:@0.0.0.0:1521:CAIRS',
+     # user
+     user: 'username',
+     # password
+     password: 'password'
+}
+
+jdbc_driver : 'tibero6-jdbc.jar'
+
+JAVA_HOME : "C:/JAVA"
+
+default_path : ""

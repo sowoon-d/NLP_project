@@ -1,0 +1,46 @@
+# soyspacing parameter
+soyspacing : {
+    verbose: False,
+    # min_count
+    mc: 10,
+    # force_abs_threshold
+    ft: 0.3,
+    # nonspace_threshold
+    nt: -0.3,
+    # space_threshold
+    st: 0.3
+}
+
+# soyspacing parameter
+soynlp: {
+    # min_noun_score
+    min_noun_score: 0.3,
+    # min_noun_frequency
+    min_noun_frequency: 1,
+    # min_eojeol_frequency
+    min_eojeol_frequency : 1
+}
+
+# fasttext parameter
+fasttext : {
+    # size
+    size: 150,
+    # window
+    window: 5,
+    # min_count
+    min_count: 20,
+    # sg (0:cbow, 1:skip-gram)
+    sg: 1
+}
+
+# fasttext_jamo parameter
+fasttext_jamo : {
+    # size
+    size: 150,
+    # window
+    window: 10,
+    # min_count
+    min_count: 2,
+    # sg (0:cbow, 1:skip-gram)
+    sg: 0
+}
